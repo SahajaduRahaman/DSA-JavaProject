@@ -6,6 +6,6 @@ public class Leetcode {
         for (int i = 0; i < 100; i++) {
             System.out.println("I am a Web Developer.");
         }
-        System.out.println("Leetcode");
+        System.out.println("I Love Coding.");
     }
 }

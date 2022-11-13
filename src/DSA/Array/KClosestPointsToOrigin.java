@@ -18,8 +18,8 @@ public class KClosestPointsToOrigin {
 
         // Print all distances which are
         // smaller than k-th distance
-        for (int i = 0; i < n; i++) {
-            int x = arr[i][0], y = arr[i][1];
+        for (int[] ints : arr) {
+            int x = ints[0], y = ints[1];
             int dist = (x * x) + (y * y);
 
             if (dist <= distk) {
